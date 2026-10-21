@@ -60,19 +60,17 @@ a {
 }
 
 .navbar nav {
-  display: flex;
-  justify-content: flex-end;
+   display: flex;
+  justify-content: center;
   align-items: center;
-  gap: 30px;
+  gap: 12px 22px;
   flex-wrap: wrap;
+  width: 100%;
 }
 
 .navbar nav a {
-  color: #243247;
-  text-decoration: none;
-  font-size: 14px;
-  font-weight: 500;
-  transition: color 0.2s ease;
+  font-size: 13px;
+  white-space: nowrap;
 }
 
 .navbar nav a:hover {
